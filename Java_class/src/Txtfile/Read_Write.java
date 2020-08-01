@@ -23,7 +23,7 @@ public class Read_Write
 		while((a=br.readLine())!=null) 
 		
 		
-		fw.write(a);
+		fw.write (a);
 		
 		Write.close();
 

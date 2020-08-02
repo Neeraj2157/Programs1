@@ -16,16 +16,17 @@ public class Read_Write
 		File f2 = new File("G:\\Java\\Testing File2.txt");
 		
 		FileReader fr = new FileReader(f);
-		FileWriter fw = new FileWriter(f2, true);
+		FileWriter fw = new FileWriter(f2);
 		BufferedReader br = new BufferedReader(fr);
 		BufferedWriter Write = new BufferedWriter(fw);
 		String a;
 		while((a=br.readLine())!=null) 
 		
-		
+		{
 		fw.write (a);
-		
-		Write.close();
+		Write.newLine();
+		}
+		fw.close();
 
 	}
 }

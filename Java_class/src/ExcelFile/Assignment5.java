@@ -3,7 +3,6 @@ package ExcelFile;
 import java.io.File;
 import java.io.IOException;
 import java.util.Scanner;
-
 import jxl.Cell;
 import jxl.Sheet;
 import jxl.Workbook;
@@ -29,11 +28,8 @@ public class Assignment5
 						for(int i=0;i<5;i++)
 							{
 								Cell c1 = Sh.getCell(i,j);
-								
 								Label l = new Label(i, j,c1.getContents());
-								
 								Sh1.addCell(l);
-								
 							}
 					}
 				wk1.write();

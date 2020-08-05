@@ -20,15 +20,15 @@ public class Assignment2
 					Cell c1 = Sh.getCell(i,row);
 					System.out.print(c1.getContents()+" ");
 				}
-}
+		}
 
-public static void main(String[] args) throws BiffException, IOException
-	{
-		Assignment2 obj =new Assignment2();
-		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter the Row number =");
-		int a = sc.nextInt();	
-		obj.Read_Data(a);
-	}
+	public static void main(String[] args) throws BiffException, IOException
+		{
+			Assignment2 obj =new Assignment2();
+			Scanner sc = new Scanner(System.in);
+			System.out.println("Enter the Row number =");
+			int a = sc.nextInt();	
+			obj.Read_Data(a);
+		}
 
 }

@@ -19,7 +19,7 @@ public class Assignment1
 			Cell c1 = Sh.getCell(row,columns);
 			System.out.println(c1.getContents());
 				
-	}
+		}
 	
 	public static void main(String[] args) throws BiffException, IOException
 		{

@@ -1,5 +1,4 @@
 package ExcelFile;
-
 import java.io.File;
 import java.io.IOException;
 import java.util.Scanner;
@@ -15,8 +14,6 @@ public class Assignment3
 				File f= new File("../Java_class/Test.xls");
 				Workbook wk =Workbook.getWorkbook(f);
 				Sheet Sh = wk.getSheet(0);
-				int r= Sh.getRows();
-				int c= Sh.getColumns();
 				for(int j=start_row;j<=end_row;j++)
 					{
 						for(int i=0;i<5;i++)

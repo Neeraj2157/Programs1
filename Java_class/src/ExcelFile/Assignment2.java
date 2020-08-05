@@ -15,9 +15,7 @@ public class Assignment2
 			File f= new File("../Java_class/Test.xls");
 			Workbook wk =Workbook.getWorkbook(f);
 			Sheet Sh = wk.getSheet(0);
-			int r= Sh.getRows();
-			int c= Sh.getColumns();
-			for(int i=0;i<5;i++)
+			for(int i=0;i<=4;i++)
 				{
 					Cell c1 = Sh.getCell(i,row);
 					System.out.print(c1.getContents()+" ");

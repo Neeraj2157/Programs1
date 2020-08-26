@@ -17,7 +17,7 @@ public class Assignment4
 {
 	public void Read_Data(int column,int row) throws IOException, RowsExceededException, WriteException
 	{
-		File f= new File("../Java_class/Write.xls");
+		File f= new File("../Java_class/Write1.xls");
 		Scanner s = new Scanner(System.in);
 		WritableWorkbook wk =Workbook.createWorkbook(f);
 		WritableSheet Sh = wk.createSheet("Testing",0);
